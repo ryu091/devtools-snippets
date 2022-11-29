@@ -3,5 +3,7 @@
     for (var i =0; i < aa.length; i++){
         if (aa[i].type == 'checkbox')
             aa[i].checked = true;
+            aa[i].click();
+            aa[i].click();
     }
 })()
